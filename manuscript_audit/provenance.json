@@ -1,0 +1,505 @@
+{
+  "metadata_sha256": "70e0e7d5964562cb0166e79143f73beaeaf77ee18e799fa4156355a57006d800",
+  "official_all_phases": 611829,
+  "phase_counts": {
+    "progress": 59325,
+    "eval": 533928,
+    "hidden": 18576
+  },
+  "available_eval": 400435,
+  "available_eval_fake": 389299,
+  "available_eval_real": 11136,
+  "eval_coverage": 0.749979397971262,
+  "itw_n": 31779,
+  "itw_fake": 11816,
+  "df2021_manifest_sha256": "17aeafa8102f07d1e70384d5951b57d424af1b93a68858cd9a5f41ef810a36e3",
+  "itw_manifest_sha256": "9881bc4baf5ab35dd70b2015fc29f088d1a48894533327aff37002390ec4a673",
+  "score_inputs": [
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s240__eta.npy",
+      "sha256": "5ff35eac207164af9e97fe53114fb76c06beda15d037c24eeaf07bb3d3e82ae7",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s240__ours_bbse.npy",
+      "sha256": "92c5dcaa457e352b127fa619f2e0837d70eed67ea0e37fcbd8ae8f381a8b0c71",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s240__ours_bbse__s1_e50000.npy",
+      "sha256": "5ca0f7fcf367bbcf86ab354664add55d8b964ca68a932a9ecac446ecd6b74c29",
+      "n": 50000
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s240__ours_bbse__s2_e50000_q0.3.npy",
+      "sha256": "6a8d17ca3056ddecb703691fc293037c9068e3f82d88b274c5c9413f47ea3ef1",
+      "n": 50000
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s240__ours_fixed.npy",
+      "sha256": "f75895df00c3f52948b0724e4c7cbdde86a287d302af834342fed15011ad50f3",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s240__ours_fixed__s1_e50000.npy",
+      "sha256": "c759db9de12e3ecb7b5895f566227ea70a0cf1397735608289daa36b1b1e799a",
+      "n": 50000
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s240__ours_fixed__s2_e50000_q0.3.npy",
+      "sha256": "5c4af067bec180b7a34475d7dc9674773189ad05ab1a9532cc676a1bce60d28f",
+      "n": 50000
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s240__sar.npy",
+      "sha256": "bf95b31a7c30abd5398f0f73d712f218e7ea1e4d956fb366841b97c07c254e17",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s240__shot.npy",
+      "sha256": "6c19571f3bd73ef4585843e3dd8da1c5be51f5181d16d314e055f03b57107849",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s240__source.npy",
+      "sha256": "519bbab53047368a823c3990eb8181def66f6e816df1867b521a276d8ee903ce",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s240__source__s1_e50000.npy",
+      "sha256": "9a5158e6290bccda921de999c1ff8e1a2870e344ce46bdc0f0449fe0c8bb7675",
+      "n": 50000
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s240__source__s2_e50000_q0.3.npy",
+      "sha256": "9a5158e6290bccda921de999c1ff8e1a2870e344ce46bdc0f0449fe0c8bb7675",
+      "n": 50000
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s240__tent.npy",
+      "sha256": "61d202bf25db000cb2b55050f7e5578ad6faee9ef77fd3b7e411a7c272150252",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s2__eta.npy",
+      "sha256": "a2ad68b23e514e5491a926f46b63e1a70e2abf606e86983d605897b4eb5fc2af",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s2__ours_bbse.npy",
+      "sha256": "c83d5a474c3d2374127fe74a7862f3317428d97fc6de1a29b6b48e760a722fc6",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s2__ours_bbse__s1_e50000.npy",
+      "sha256": "1e219f00f4055922384b17ee754bee4b2b363eb518a815f02e82933cdd7eb6db",
+      "n": 50000
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s2__ours_bbse__s2_e50000_q0.3.npy",
+      "sha256": "a5f52de03880072ff4359daae7c7659664985ec244dfcf9b68653e9800f574e0",
+      "n": 50000
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s2__ours_bbse_nocons.npy",
+      "sha256": "a29ea95c849918ab665ff828b658f9772f3587e6ac51adf5fa9f4e8f63008c63",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s2__ours_conf.npy",
+      "sha256": "354f1cf77d3341f8f5d2eeed7d92a71f25e6a7a689c12eae81ef376419c3dd9b",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s2__ours_fixed.npy",
+      "sha256": "d15b2ef0038dc97ee89e7e5737cff322922703d50db60638f193aee3f6d48b1a",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s2__ours_fixed__s0_e0_q0.02.npy",
+      "sha256": "e63cf34602033e94308d30f6ee84f7e50cdb1887c0dd40567c3430fff2d3bf8b",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s2__ours_fixed__s0_e0_q0.05.npy",
+      "sha256": "e98ec8549a2b37d7161cf8fdd61a72401fb0cb1ff2268d41d168fa3ab6140c72",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s2__ours_fixed__s0_e0_q0.1.npy",
+      "sha256": "e07511163fe33938a86260612a534caf6c0e96b3bcbc644a35250c7d02447c48",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s2__ours_fixed__s1_e50000.npy",
+      "sha256": "36f18fdc9eb12ecd10f7b9c7c85a6ce1075039c02de20154c4bcda61b4bacc59",
+      "n": 50000
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s2__ours_fixed__s2_e50000_q0.3.npy",
+      "sha256": "00f7e12139d18e67311222726f22b48fcd46d60ae5e71ef919bcec108c963fb1",
+      "n": 50000
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s2__sar.npy",
+      "sha256": "45a500e89b38de8f4568292c7838e08da32e8865964ca5b54e82f65c6ebdd036",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s2__shot.npy",
+      "sha256": "fa9f45fc7baf56aa95370993abcac456a25a5c16d53088d89426a1b7d3d8723b",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s2__source.npy",
+      "sha256": "108256e8101c40ba2f6f03d8448d59a763f9428d034c0db07e172a7f7e48fb67",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s2__source__s0_e0_q0.02.npy",
+      "sha256": "108256e8101c40ba2f6f03d8448d59a763f9428d034c0db07e172a7f7e48fb67",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s2__source__s0_e0_q0.05.npy",
+      "sha256": "108256e8101c40ba2f6f03d8448d59a763f9428d034c0db07e172a7f7e48fb67",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s2__source__s0_e0_q0.1.npy",
+      "sha256": "108256e8101c40ba2f6f03d8448d59a763f9428d034c0db07e172a7f7e48fb67",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s2__source__s1_e50000.npy",
+      "sha256": "42e75532cb083ef6b111460dadb23e6c6c30c2545b4aeb8e10b71c31e6656f91",
+      "n": 50000
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s2__source__s2_e50000_q0.3.npy",
+      "sha256": "42e75532cb083ef6b111460dadb23e6c6c30c2545b4aeb8e10b71c31e6656f91",
+      "n": 50000
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s2__tent.npy",
+      "sha256": "cfd62cd358b20426c68471137df6df39985c1590c9d2ba8f4afaf272f4f34991",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s42__eta.npy",
+      "sha256": "391b20e340e3bee0d6c1d2731a05dd893addbbad6c30974d59782aefcb8d8993",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s42__ours_bbse.npy",
+      "sha256": "1ce3adb04f367b58df0451ec649803c91c04fb95418fabca001d92121a9fed0f",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s42__ours_bbse__s1_e50000.npy",
+      "sha256": "acc67cede8db4a385bd0ee53141671f9a93d295206ec6f1eb2da79eb35cc229f",
+      "n": 50000
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s42__ours_bbse__s2_e50000_q0.3.npy",
+      "sha256": "0cb75a89c48fc2f46b3ec54a0d514a0479ed9acb8969cb3768da57a133210264",
+      "n": 50000
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s42__ours_fixed.npy",
+      "sha256": "1481cfa356f9434dc874c9485447d76f14fc921a6126b754cf1e430280defa06",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s42__ours_fixed__s1_e50000.npy",
+      "sha256": "208832a23142d86ced903911a4cdda993b84556f105d2700e534132599082d42",
+      "n": 50000
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s42__ours_fixed__s2_e50000_q0.3.npy",
+      "sha256": "c4a07187e375cc037aa2552a62cec7b189070da106b14d47bd17243594b32649",
+      "n": 50000
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s42__sar.npy",
+      "sha256": "3d889e3ba731b27d4b46e940d645649e04b491df9ed97eccf538075d2c2ddb33",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s42__shot.npy",
+      "sha256": "63e42f0924a9b919ad73012d984a04a1fc379c65552a9396cf3e1a57207c647f",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s42__source.npy",
+      "sha256": "3d889e3ba731b27d4b46e940d645649e04b491df9ed97eccf538075d2c2ddb33",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s42__source__s1_e50000.npy",
+      "sha256": "c081b016ea597bcb72a58278de5a7a7f79d2033ff098eb7062560b126eadf3dd",
+      "n": 50000
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s42__source__s2_e50000_q0.3.npy",
+      "sha256": "c081b016ea597bcb72a58278de5a7a7f79d2033ff098eb7062560b126eadf3dd",
+      "n": 50000
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s42__tent.npy",
+      "sha256": "da77f793f50ccc86593d8479f116925df74d227d30e3142ad5eb786655d02e91",
+      "n": 400435
+    },
+    {
+      "file": "scores_protocol_a_public_itw/deepfense_w2v2_aasist_s240__ours_bbse.npy",
+      "sha256": "54402019d231f78ac8b0c4b01a39ad97bb0d788babcc8bb0e24306e6821d0a03",
+      "n": 31779
+    },
+    {
+      "file": "scores_protocol_a_public_itw/deepfense_w2v2_aasist_s240__ours_fixed.npy",
+      "sha256": "8af687098d3a69c29ed11e59e54c8ccebf02deddd98e39689eb60c4959e1fd2e",
+      "n": 31779
+    },
+    {
+      "file": "scores_protocol_a_public_itw/deepfense_w2v2_aasist_s240__source.npy",
+      "sha256": "76a823cd33025ae7b06fa91d3098c54eac49b9d9a50b3d84ca549de95df3ba3e",
+      "n": 31779
+    },
+    {
+      "file": "scores_protocol_a_public_itw/deepfense_w2v2_aasist_s2__ours_bbse.npy",
+      "sha256": "7a9ecfe1d2559aeca7f44cf1d322d8d7271a7ee7dd42c22b25d7099a147ef417",
+      "n": 31779
+    },
+    {
+      "file": "scores_protocol_a_public_itw/deepfense_w2v2_aasist_s2__ours_fixed.npy",
+      "sha256": "e3826cec903d9f040d95107576f8b96399797f73152661f10955c3114f800f71",
+      "n": 31779
+    },
+    {
+      "file": "scores_protocol_a_public_itw/deepfense_w2v2_aasist_s2__source.npy",
+      "sha256": "a31f5243778da5dace4adea9f603d519408929356cf05792684b3f90f0c1ac74",
+      "n": 31779
+    },
+    {
+      "file": "scores_protocol_a_public_itw/deepfense_w2v2_aasist_s42__ours_bbse.npy",
+      "sha256": "7f9354fe29c48032b48dffe79d959bbdddd5a9531841c1956f86f1d12e1095b2",
+      "n": 31779
+    },
+    {
+      "file": "scores_protocol_a_public_itw/deepfense_w2v2_aasist_s42__ours_fixed.npy",
+      "sha256": "3ce655dbcc783e7f21f435ec70ef164e00853a070cabb47e5d48724814865dd5",
+      "n": 31779
+    },
+    {
+      "file": "scores_protocol_a_public_itw/deepfense_w2v2_aasist_s42__ours_gmm.npy",
+      "sha256": "c00416de9957c35c08eadb8aeb93dcd0ee3317eef70322775ebf7f400c264654",
+      "n": 31779
+    },
+    {
+      "file": "scores_protocol_a_public_itw/deepfense_w2v2_aasist_s42__ours_oracle.npy",
+      "sha256": "10714a47374b1cc45e709a177d37b6815dd437f584d0fb3ec6ed29417333e0f3",
+      "n": 31779
+    },
+    {
+      "file": "scores_protocol_a_public_itw/deepfense_w2v2_aasist_s42__source.npy",
+      "sha256": "85cc6d2f7d023ee6cbd2b84ee7f889114df96304a53399f070abd88ccca09aa8",
+      "n": 31779
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__eta.npy",
+      "sha256": "f2cb0418f1dd7398c835c3790ce6a8736c7f3753f60f70317d15064a2f7a30c3",
+      "n": 31779
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__ours_bbse.npy",
+      "sha256": "6f274561db1d6a85a434a75a63586738e7528f3acc78af95610f0fd0b8b02b14",
+      "n": 31779
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__ours_bbse__s0_e0_q0.3_k0.9.npy",
+      "sha256": "b068c70015267e36afe19a2d3524b365a1b25875fe5b8f7ec4c6c06e048c8def",
+      "n": 13129
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__ours_bbse__s0_e0_q0.3_k0.95.npy",
+      "sha256": "ca06f5bcc195044dd2bc97e36c079976c2b551fd32224b8447a38ca24ab39fa9",
+      "n": 12438
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__ours_bbse__s0_e0_q0.3_k0.97.npy",
+      "sha256": "6d375c06b06de2800972cca5e976e659fab60725403f5fb3700ccac666d2e33b",
+      "n": 12181
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__ours_conf.npy",
+      "sha256": "8f5e93bd04bc50d2978ef18a8a8ea27522828cd04b955ca7b2ab358426254705",
+      "n": 31779
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__ours_fixed.npy",
+      "sha256": "a50d064e77d563dbc3e44bf713d3382a4c7e18b079b7b38e5f91d3b36043d28d",
+      "n": 31779
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__ours_fixed__s0_e0_q0.02_k0.9.npy",
+      "sha256": "1ad5d45640653c7d61b193deb674f4ea237bdfdab468db1945c201f4df564a34",
+      "n": 13129
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__ours_fixed__s0_e0_q0.02_k0.95.npy",
+      "sha256": "f4769839196c18f640330dedeaef70dfed5ce4be1c0c6beeb78490e88dac909d",
+      "n": 12438
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__ours_fixed__s0_e0_q0.02_k0.97.npy",
+      "sha256": "fa4f86a14f8dcc746a92e8b30511aafa149052883684adb8ec5e4ffc3cf2b6ad",
+      "n": 12181
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__ours_fixed__s0_e0_q0.1_k0.9.npy",
+      "sha256": "5b48aedc3c9f1b08036e377e0d84b0186ba0e254a6b5ebeeb27ac804c8d6f8df",
+      "n": 13129
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__ours_fixed__s0_e0_q0.1_k0.95.npy",
+      "sha256": "cb341f3fcac3b77878be16745bdeb32907ca99211081548494707014d71547fa",
+      "n": 12438
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__ours_fixed__s0_e0_q0.1_k0.97.npy",
+      "sha256": "da8f421faddf82b6c51d205d5f32a1d70049da618a0c7d5c6cd2e8e0e4b7e804",
+      "n": 12181
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__ours_fixed__s0_e0_q0.3_k0.9.npy",
+      "sha256": "3af12b4947dd48ef730d900d132af6ab2374006b6c9db3f09b4504fbdf79d4cd",
+      "n": 13129
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__ours_fixed__s0_e0_q0.3_k0.95.npy",
+      "sha256": "667ae57d513147979d94551274e32b1348bea8f10d8b502b945edc927143db4b",
+      "n": 12438
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__ours_fixed__s0_e0_q0.3_k0.97.npy",
+      "sha256": "4dfca3bf43fd83faf928dc07c6772df890b3818117d4d988b5563aff2d23bcbc",
+      "n": 12181
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__ours_gmm.npy",
+      "sha256": "a5c735d8c22dd8547bc7553176650111240594cfe21777d1adb4c09e1d9f5cef",
+      "n": 31779
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__ours_oracle.npy",
+      "sha256": "9660000dcdc049cd307540d70d3243ee3ab73b6a82e13ab777901316b82a9685",
+      "n": 31779
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__sar.npy",
+      "sha256": "5846cddd0751c17a3de2ffa1c014bd14c43b85aab74ffa0ef1a96e3a18a8eb4c",
+      "n": 31779
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__shot.npy",
+      "sha256": "06025d8b2c210d6d31a605797542fbea99e9fdd72c83e6fbf3963598ca85af6e",
+      "n": 31779
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__source.npy",
+      "sha256": "7c62831afbe68c40df61cd62ba9a290dbad6bbf8a969903246fd8a43d4fd89bb",
+      "n": 31779
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__source__s0_e0_q0.02_k0.9.npy",
+      "sha256": "d91486e37c1a262289b3b63b653c2137ab90e383af9a67a3fb41ee111af967fa",
+      "n": 13129
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__source__s0_e0_q0.02_k0.95.npy",
+      "sha256": "a742dd1d6f4ef1b8e85af67d669fd044a0078de46de0413ba0094207c30b0e51",
+      "n": 12438
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__source__s0_e0_q0.02_k0.97.npy",
+      "sha256": "e837d28547055f25de0235689fa80677f7f4df9c38e72d099de1c20f68b3c191",
+      "n": 12181
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__source__s0_e0_q0.1_k0.9.npy",
+      "sha256": "d91486e37c1a262289b3b63b653c2137ab90e383af9a67a3fb41ee111af967fa",
+      "n": 13129
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__source__s0_e0_q0.1_k0.95.npy",
+      "sha256": "a742dd1d6f4ef1b8e85af67d669fd044a0078de46de0413ba0094207c30b0e51",
+      "n": 12438
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__source__s0_e0_q0.1_k0.97.npy",
+      "sha256": "e837d28547055f25de0235689fa80677f7f4df9c38e72d099de1c20f68b3c191",
+      "n": 12181
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__source__s0_e0_q0.3_k0.9.npy",
+      "sha256": "d91486e37c1a262289b3b63b653c2137ab90e383af9a67a3fb41ee111af967fa",
+      "n": 13129
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__source__s0_e0_q0.3_k0.95.npy",
+      "sha256": "a742dd1d6f4ef1b8e85af67d669fd044a0078de46de0413ba0094207c30b0e51",
+      "n": 12438
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__source__s0_e0_q0.3_k0.97.npy",
+      "sha256": "e837d28547055f25de0235689fa80677f7f4df9c38e72d099de1c20f68b3c191",
+      "n": 12181
+    },
+    {
+      "file": "scores_protocol_a_public_itw/ssl_aasist_wavefake__tent.npy",
+      "sha256": "689ace93ca566912bcb0906b6687b01e217353d23e9366e7c0850479f33b3df2",
+      "n": 31779
+    }
+  ],
+  "method": "ROC interpolation with ties grouped; exhaustive distinct-score oracle; historical AUC/accuracy cross-check",
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1"
+  },
+  "auxiliary_inputs": [
+    {
+      "file": "audit_icassp.py",
+      "sha256": "7f49f5779f8dc5a9ed7a2b10abb1f858c8c7558feaaa9646d8199c1f48f334e9"
+    },
+    {
+      "file": "metrics.py",
+      "sha256": "d3287b8f905a4f899e5a92691ad1e4d1a736549f2b0863a57b20a89d57279a8f"
+    },
+    {
+      "file": "results_protocol_a_public.csv",
+      "sha256": "36bdd480e3bf82ee246b1b411304e919fa0a7b80f59ac6db5e990682d3656e26"
+    },
+    {
+      "file": "results_protocol_a_public_itw.csv",
+      "sha256": "807989347b12fb41eff0e0597096adacc5a728ec9e9f455e861f760c8da0de6d"
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s240__M.npy",
+      "sha256": "f6554ca01aba6d15909e4f09ee385638199d50d299533c73ac3f4d59f45599c1"
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s2__M.npy",
+      "sha256": "182b19a0210a5976609bb9c2605d73bdd2f99bcbba994461e7e5bd312e0d0fe5"
+    },
+    {
+      "file": "scores_protocol_a_public/deepfense_w2v2_aasist_s42__M.npy",
+      "sha256": "6777c4856b4ba998c2c0be7ffa1f47dcf9830ea15dc3dc0843a44ec13ea7607b"
+    },
+    {
+      "file": "scores_protocol_a_public/ssl_aasist_wavefake__M.npy",
+      "sha256": "c23295bf5f656f52266ad537e2fc0c7928f8824380e0d2f150837258d027d1a4"
+    }
+  ]
+}
