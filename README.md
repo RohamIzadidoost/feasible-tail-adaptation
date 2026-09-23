@@ -69,7 +69,8 @@ Useful environment variables: `PUBA_Q` (tail budget), `PUBA_ARMS`, `PUBA_CKPTS`,
 @inproceedings{izadidoost2027fta,
   title     = {Feasible-Tail Test-Time Adaptation for Audio Deepfake Detection
                under Prevalence Shift},
-  author    = {Izadidoost, Roham and Sharma, Shweta and Srivastava, Sumit},
+  author    = {Izadidoost, Roham and Sharma, Shweta and Srivastava, Sumit and
+               Ghayour Baghbani, Farzaneh},
   booktitle = {Submitted to IEEE ICASSP},
   year      = {2027}
 }

@@ -38,12 +38,13 @@
 \title{FEASIBLE-TAIL TEST-TIME ADAPTATION FOR\\
 AUDIO DEEPFAKE DETECTION UNDER PREVALENCE SHIFT}
 
-\name{Roham Izadidoost$^{1}$ \qquad Shweta Sharma$^{2}$ \qquad Sumit Srivastava$^{2}$}
+\name{Roham Izadidoost$^{1}$ \quad Shweta Sharma$^{2}$ \quad Sumit Srivastava$^{2}$
+\quad Farzaneh Ghayour Baghbani$^{1}$}
 
 \address{$^{1}$Iran University of Science and Technology \qquad
 $^{2}$Manipal University Jaipur\\
 \small roham\_izadidoost@comp.iust.ac.ir, shweta.2602511030@muj.manipal.edu,\\
-\small sumit.srivastava@jaipur.manipal.edu}
+\small sumit.srivastava@muj.manipal.edu, ghayour@iust.ac.ir}
 
 \begin{document}
 \maketitle
@@ -66,14 +67,14 @@ fake it adds $\sim\!9$ points of balanced accuracy.
 
 \begin{keywords}
 audio deepfake detection, anti-spoofing, test-time adaptation, label shift,
-cross-corpus generalisation.
+cross-corpus generalization.
 \end{keywords}
 
 \section{Introduction}
 Self-supervised (SSL) front-ends such as wav2vec\,2.0 and XLS-R, paired with
 lightweight back-ends, reach very low in-domain error on standard anti-spoofing
 benchmarks~\cite{wav2vec2aug,xlsrsls,aasist}. Deployed on audio from a
-different source, accuracy drops steeply, a well-documented generalisation gap~\cite{asdg,crossdomain,itw}.
+different source, accuracy drops steeply, a well-documented generalization gap~\cite{asdg,crossdomain,itw}.
 
 \begin{figure*}[t]
 \centering
@@ -110,11 +111,11 @@ class $c$ that exist, so no detector can push its purity past
 $\min(1,\pi_c/q_c)$. FTA sizes each tail to its class, $q_c{=}2q\hat\pi_c$, from a
 label-free prior estimate, and where no estimate can be trusted caps $q$ by a
 prevalence lower bound instead. At $\hat\pi{=}\tfrac12$ it is \emph{identical} to
-the symmetric rule: it generalises the recipe it repairs, and inherits its
+the symmetric rule: it generalizes the recipe it repairs, and inherits its
 behaviour on the balanced pools where that recipe was validated.
 
 \textbf{Contributions.} (i) FTA: a prevalence-aware tail budget that is a strict
-generalisation of the symmetric rule, needs no target label, and costs one scalar
+generalization of the symmetric rule, needs no target label, and costs one scalar
 per class. (ii) The feasibility constraint it is built from, $q_c\le\pi_c$ ---
 exact, detector-independent, and confirmed by intervening on prevalence directly.
 (iii) An evaluation on released checkpoints at the benchmark's own prevalence:
@@ -126,7 +127,7 @@ label-free monitors, one recovering $13.9$ EER points from a Tent collapse.
 
 \textbf{Related work.} SSL front-ends with AASIST or attentive back-ends dominate
 recent benchmarks~\cite{wav2vec2aug,xlsrsls,aasist,rawnet2,wav2dftsl}. Train-time domain
-generalisation aligns source domains~\cite{asdg} or runs gradient reversal over
+generalization aligns source domains~\cite{asdg} or runs gradient reversal over
 source and target jointly~\cite{dann}; both act before deployment. In TTA,
 entropy minimisation (Tent)~\cite{tent} is the reference recipe, and its
 instability prompted reliable-sample filtering (ETA/EATA)~\cite{eata},
@@ -357,9 +358,9 @@ $q{=}0.02$ is unharmed ($97.8/98.6/98.6$), while FTA holds $97.7/98.7/98.9\%$ an
 gains $\sim\!9$ points of \emph{balanced} accuracy on the source
 ($93.7/91.6/92.3$ against $82.7/83.6/83.5$): the failure is prevalence, not DF.
 
-\subsection{Balanced pools: FTA is the recipe it generalises}
+\subsection{Balanced pools: FTA is the recipe it generalizes}
 Where Eq.~\eqref{eq:valid} holds, $\hat\pi\!\approx\!\tfrac12$ and FTA reduces to
-the symmetric rule, so this arm confirms the generalisation costs nothing
+the symmetric rule, so this arm confirms the generalization costs nothing
 (Table~\ref{tab:protob}). FTA improves $10/12$ folds over source and beats every entropy-based arm, while
 IM-PL ties it ($17.76$ vs.\ $17.44$, $p{=}0.47$): a hard uniform prior is free
 where Eq.~\eqref{eq:valid} holds and destructive where it does not, so the two
